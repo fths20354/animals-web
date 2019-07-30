@@ -1,0 +1,35 @@
+* {
+    font-family: 標楷體;
+    color: #ffffff;
+    box-sizing: border-box;
+    border: 0.1px solid rgba(0,0,0,0);
+}
+body, html {
+    height: 100%;
+}
+#back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1554990772-0bea55d510d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    opacity: 0.5;
+    vertical-align: top;
+    z-index: -1;
+}
+#box {
+    margin: 10% 20%;
+    z-index: 0;
+}
+#top, .tab {
+    text-decoration: none;
+}
+#top {
+    font-size: 2em;
+}
+#tabbox {
+    display: inline-block;
+}
+.tab {
+    display: inline-block;
+}

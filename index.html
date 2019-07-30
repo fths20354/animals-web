@@ -11,21 +11,24 @@
     <!-- 網頁標題(於標籤列顯示之文字) -->
     <title>寵物大追蹤</title>
     <!-- CSS區塊 -->
-    <style>
+    <!-- <style>
         *{font-family: 標楷體;}
 
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <!-- 網頁內容 -->
 <body>
     <div id="back">
+    </div>
+        <div id="box">
         <!-- 導覽列，直接是一個區塊，用於分頁連結，有語意可提升SEO(搜索速度) -->
         <nav>
-            <a href="index.html">寵物大追蹤</a>
-            <div id="tab">
-                <a href="#">關於我</a>
-                <a href="#">故事</a>
-                <a href="#">聯絡我</a>
+            <a href="index.html" id="top">寵物大追蹤</a>
+            <div id="tabbox">
+                <a href="#" class="tab">關於我</a>
+                <a href="#" class="tab">故事</a>
+                <a href="#" class="tab">聯絡我</a>
             </div>
         </nav>
             <!-- 內容區塊元素，有語意可提升SEO(搜索速度) -->
@@ -45,7 +48,8 @@
             <footer>
                 寵物大追蹤 &copy; 2019
             </footer>
-    </div>
+        </div>
+    
     
 </body>
 </html>
