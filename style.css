@@ -32,6 +32,9 @@ body, html {
 #top {
     font-size: 3em;
 }
+#line {
+    margin-top: 10px;
+}
 #tabbox {
     display: inline-block;
     float: right;
@@ -44,11 +47,12 @@ body, html {
 hr {
     height: 1.5px;
     background-color: green;
+    margin: 20px auto;
 }
 #choose {
     border: 2px solid #fff;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 5px;
     background-color: rgba(184, 144, 16, 0.7);
 }
@@ -57,7 +61,7 @@ hr {
 }
 #icon {
     display: inline-block;
-    margin: 10px auto 0 10%;
+    margin: 50px auto 0 10%;
 }
 .tag {
     border: 2px solid #fff;
